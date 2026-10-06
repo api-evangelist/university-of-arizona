@@ -28,7 +28,7 @@ tags:
   - Research
   - United States
 created: '2026-08-19'
-modified: '2026-08-19'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 x-type: university
 x-source: qs-ranking-gap
@@ -42,6 +42,8 @@ x-coverage:
   method: create-university-stubs.py
 apis: []
 common:
+  - url: https://news.arizona.edu/rss.xml
+    type: BlogRSS
   - type: Website
     url: https://www.arizona.edu/
 maintainers:
